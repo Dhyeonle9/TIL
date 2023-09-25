@@ -46,11 +46,15 @@ git config --global user.name <이름>
 ## Git 사용 요약
 ![Git_LifeCycle](./asset/Git_lifecycle.png)
 
-1. 수정한 code file을 저장한다
-2. `git add <파일/폴더` - 작업한 파일/폴더를 **Staging area**에 업로드한다.
+1. 수정한 code file을 저장한다 (Local working directory, **Untracked 상태**)
+2. `git add <파일/폴더` (Add the file, **Staged 상태**) 
+    - 작업한 파일/폴더를 **Staging area**에 업로드한다.
     - `git add .` 입력시 작업한 디렉토리의 모든 내용을 업로드 한다.
-3. `git commit -m "<메세지>"` - **Staging area**에 업로드된 파일들의 스냅샷을 찍어 `.git` 디렉토리에 저장한다.
+3. `git commit -m "<메세지>"` (.git에 저장, **unmodified 상태**)    
+    - **Staging area**에 업로드된 파일들의 스냅샷을 찍어 `.git` 디렉토리에 저장한다.
     - `git -m "메세지"` 로 변경사항에 대한 내용을 기록할 수 있다.
 
-4. `git push origin master` - 원격저장소 (여기서는 설정한 github)에 **branch-master**을 업로드한다.
+4. `git push origin master` 
+    - **원격저장소** (여기서는 설정한 github)에 **branch(master)**을 업로드한다.
 
+> 코드 및 파일 변동사항이 있을 시 저장 후 add, commit을 진행한다.
