@@ -43,4 +43,14 @@ git config --global user.name <이름>
     - `git push <원격저장소이름-origin> <브랜치이름-master>`
     - 원격저장소에 브랜치를 업로드, 원격저장소이름과 브랜치이름은 바뀔 수 있음
 
-    
+## Git 사용 요약
+![Git_LifeCycle](./asset/Git_lifecycle.png)
+
+1. 수정한 code file을 저장한다
+2. `git add <파일/폴더` - 작업한 파일/폴더를 **Staging area**에 업로드한다.
+    - `git add .` 입력시 작업한 디렉토리의 모든 내용을 업로드 한다.
+3. `git commit -m "<메세지>"` - **Staging area**에 업로드된 파일들의 스냅샷을 찍어 `.git` 디렉토리에 저장한다.
+    - `git -m "메세지"` 로 변경사항에 대한 내용을 기록할 수 있다.
+
+4. `git push origin master` - 원격저장소 (여기서는 설정한 github)에 **branch-master**을 업로드한다.
+
