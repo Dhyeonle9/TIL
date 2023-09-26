@@ -69,7 +69,7 @@ git config --global user.name <이름>
 - `git switch <브랜치이름>` 
     - <브랜치이름> 브랜치로 작업 환경 이동
 
-## Git 사용 요약
+## Git 기본 사용 요약
 ![Git_LifeCycle](./asset/Git_lifecycle.png)
 
 1. 수정한 code file을 저장한다 (Local working directory, **Untracked 상태**)
@@ -83,4 +83,7 @@ git config --global user.name <이름>
 4. `git push origin master` 
     - **원격저장소** (여기서는 설정한 github)에 **branch(master)**을 업로드한다.
 
-> 코드 및 파일 변동사항이 있을 시 저장 후 add, commit을 진행한다.
+5. `git pull origin master`
+    - **원격저장소** (여기서는 설정한 github)에 저장된 **branch(master)** 내용을 동기화(working space에 다운로드)한다.
+    
+> 코드 및 파일 변동사항이 있을 시 저장 후 add, commit, push를 진행한다.
