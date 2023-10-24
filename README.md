@@ -65,3 +65,6 @@
     - linked list
     - tree
     - pandas
+- [10/24 17회차](./Review/017_231024.md)
+    - Github 특강 1
+    
