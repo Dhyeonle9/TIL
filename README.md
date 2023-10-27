@@ -80,4 +80,9 @@
         - 통계
         - 복제 결측치
         - 전처리 추가 삭제 데이터변환
+- [10/27 20회차](./Review/020_231027.md)
+    - pandas
+        - groupby/pivottable
+        - concat/merge
+
 
