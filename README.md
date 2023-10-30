@@ -84,5 +84,9 @@
     - pandas
         - groupby/pivottable
         - concat/merge
-
+- [10/30 21회차](./Review/021_231030.md)
+    - 풀스택 프로그래밍
+        - web개발
+            - HTML 기초1
+            - CSS 기초1
 
