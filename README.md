@@ -95,3 +95,8 @@
             - CSS 기초2
             - bootstrap 활용
             - django 1
+- [11/1 23회차](./Review/023_231101.md)
+    - 풀스택 프로그래밍
+        - web개발
+            - django2
+                - CRUD 로직 구현
