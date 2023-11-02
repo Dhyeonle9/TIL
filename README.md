@@ -100,3 +100,15 @@
         - web개발
             - django2
                 - CRUD 로직 구현
+- [11/1 23회차](./Review/023_231101.md)
+    - 풀스택 프로그래밍
+        - web개발
+            - django2
+                - CRUD 로직구현    
+                (feat. 
+                    - 공통 템플릿 적용
+                    - 변수화된 url 적용
+                    - CSS 적용
+                    - POST method)
+                
+
