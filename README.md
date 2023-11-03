@@ -110,5 +110,10 @@
                     - 변수화된 url 적용
                     - CSS 적용
                     - POST method)
+- [11/3 25회차](./Review/025_231103.md)
+    - 풀스택 프로그래밍
+        - web개발
+            - django2
+                - CRUD 로직구현(feat. ModelForm)
                 
 
