@@ -113,7 +113,11 @@
 - [11/3 25회차](./Review/025_231103.md)
     - 풀스택 프로그래밍
         - web개발
-            - django2
+            - django3
                 - CRUD 로직구현(feat. ModelForm)
-                
+- [11/6 26회차](./Review/026_231106.md)
+    - 풀스택 프로그래밍
+        - web개발
+            - django4
+                - 댓글기능 구현 (1:N구조, ForeignKey)
 
