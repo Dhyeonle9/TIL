@@ -120,4 +120,9 @@
         - web개발
             - django4
                 - 댓글기능 구현 (1:N구조, ForeignKey)
+- [11/7 27회차](./Review/027_231107.md)
+    - 풀스택 프로그래밍
+        - web개발
+            - django4
+                - 회원가입/로그인기능 구현 (Authentication)
 
